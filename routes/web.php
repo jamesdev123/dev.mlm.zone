@@ -23,3 +23,5 @@ Route::group([], function() {
 
 // Auth Panel
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get("/country", "HomeController@getCountry");
