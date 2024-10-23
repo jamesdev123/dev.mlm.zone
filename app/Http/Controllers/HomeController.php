@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function getCountry(){
+        $data = array("USA", "Russia");
+        return json_encode($data);
+    }
 }
