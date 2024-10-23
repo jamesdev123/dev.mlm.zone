@@ -14,7 +14,7 @@ class Country
      * @var array
      */
     protected $fillable = [
-        'name', 'zipcode'
+        'name', 'zipcode', 'sname'
     ];
 
 }
